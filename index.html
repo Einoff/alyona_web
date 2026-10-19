@@ -117,14 +117,9 @@
 
     /* Photo band */
     .band {
-      position: relative; min-height: 460px; display: flex; align-items: flex-end;
+      min-height: 460px;
       background: #2a241d url("https://images.pexels.com/photos/1796720/pexels-photo-1796720.jpeg?auto=compress&cs=tinysrgb&w=2000") center 40% / cover no-repeat;
-      color: #fff;
     }
-    .band::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,16,12,.1) 0%, rgba(20,16,12,.35) 40%, rgba(20,16,12,.82) 100%); }
-    .band .wrap { position: relative; width: 100%; padding-bottom: 56px; }
-    .band blockquote { margin: 0; max-width: 18em; font-family: var(--serif); font-size: clamp(26px, 3.6vw, 40px); line-height: 1.2; }
-    .band cite { display: block; margin-top: 14px; font: 500 13px/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: #f3c9a8; font-style: normal; }
 
     .edu-photo { border-radius: 18px; overflow: hidden; }
     .edu-photo img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; }
@@ -202,12 +197,7 @@
     </div>
   </div>
 
-  <div class="band" role="img" aria-label="Aerial view of the Radcliffe Camera, Oxford">
-    <div class="wrap">
-      <blockquote>From the first idea to the final polish, every essay sounds like the person who wrote it.</blockquote>
-      <cite>Oxbridge · Ivy League · top universities worldwide</cite>
-    </div>
-  </div>
+  <div class="band" role="img" aria-label="Aerial view of the Radcliffe Camera, Oxford"></div>
 
   <section id="services">
     <div class="wrap">
